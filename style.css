@@ -1,0 +1,53 @@
+.containerbig{
+    display: flex;
+    border: solid 10px black;
+    padding: 10px;
+    background-color: darkblue;
+    height: 1000px;
+    width: auto;
+    flex-direction: row;
+}
+.acontainer{
+    display: flex;
+    border: solid 10px rgb(236, 224, 224);
+    padding: 10px;
+    background-color: rgb(97, 97, 152);
+    width: 2fr;
+    flex-wrap: wrap;
+    flex: 2 1 auto;
+}
+.bcontainer{
+    display: flex;
+    border: solid 10px black;
+    padding: 10px;
+    background-color: darkblue;
+    margin: 10px;
+    width: 1fr;
+    flex: 2 1 auto;
+    flex-direction: row;
+}
+.ccontainer{
+    display: flex;
+    border: solid 10px black;
+    padding: 10px;
+    background-color: darkblue;
+    margin: 10px;
+    width: 1fr;
+    flex: 2 1 auto;
+}
+.finalc{
+    width: 1fr;
+    height: auto;
+    border: solid 5px white;
+    background-color: crimson;
+    flex: 2 1 auto;
+    flex-direction: column-reverse;
+    
+}
+.finalb{
+    width: 1fr;
+    height: auto;
+    border: solid 5px rgb(196, 196, 196);
+    background-color: rgb(48, 17, 248);
+    flex: 2 2 auto;
+}
